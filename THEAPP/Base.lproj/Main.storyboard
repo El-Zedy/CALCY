@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+        </array>
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="CALCY_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALCY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgP-7r-ZUJ">
+                                <rect key="frame" x="8" y="45" width="359" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="1km-dB-f0Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="03E-XZ-uNF">
+                                <rect key="frame" x="16" y="129" width="349" height="64"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="63"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210 / 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOI-W5-mod">
+                                <rect key="frame" x="16" y="103" width="339" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="tU7-7z-ND5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNZ-OL-pgu" userLabel="ShadowView" customClass="MyView" customModule="CALCY_V2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="201" width="375" height="466"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="6lP-T3-cSS">
+                                        <rect key="frame" x="8" y="8" width="359" height="450"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8j7-gr-46T">
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="85"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn2-N2-qdY" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="dn2-N2-qdY" secondAttribute="height" multiplier="1:1" id="u6V-XZ-SJq"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                                        <state key="normal" title="AC">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="AcAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zag-Vi-Tyk"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoh-2Q-7eL" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="91.5" y="0.0" width="85" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="±">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="plusOrMinAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYO-Zm-k3U"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78k-tP-vAX" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="182.5" y="0.0" width="85.5" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="%">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="PrecentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J69-F6-Mdd"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bvt-wv-34g" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="85" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="/">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="OperationsButtonsActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wKc-12-6dk"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Agb-yQ-sMs">
+                                                <rect key="frame" x="0.0" y="91" width="359" height="85.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbb-ro-dn9" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="7">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FaF-9o-7De"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc6-Ia-pE8" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="91.5" y="0.0" width="85" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="8">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="egt-U9-zER"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wl-2F-i1d" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="182.5" y="0.0" width="85.5" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="9">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCV-yJ-DTw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DG8-gF-JsF" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="85" height="85.5"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="X">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="OperationsButtonsActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m7n-C8-T8M"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Maq-kE-iHJ">
+                                                <rect key="frame" x="0.0" y="182.5" width="359" height="85"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yni-Zh-awS" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="85"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="4">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SM9-bm-ciX"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbf-Ki-7qJ" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="91.5" y="0.0" width="85" height="85"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="5">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ouq-p8-XSh"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n6-zg-W3v" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="182.5" y="0.0" width="85.5" height="85"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="6">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0Q-4f-GOa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04E-LD-0mO" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="85" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
+                                                        <state key="normal" title="-">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="OperationsButtonsActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="19M-Ix-4qn"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="9HB-6Z-zOa">
+                                                <rect key="frame" x="0.0" y="273.5" width="359" height="85.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTw-NG-1Ln" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="1">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZP-YF-fAf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsA-VF-W2D" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="91.5" y="0.0" width="85" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="2">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mlm-xq-RPn"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42m-fz-ctQ" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="182.5" y="0.0" width="85.5" height="85.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="3">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w84-47-1Rf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpv-j4-Hxu" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="85" height="85.5"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.099288313356164379" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
+                                                        <state key="normal" title="+">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="OperationsButtonsActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Db-AV-PFw"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="eNc-vT-yZR">
+                                                <rect key="frame" x="0.0" y="365" width="359" height="85"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fal-kf-2ef" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="176.5" height="85"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title="   0">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvZ-Gt-Ev5"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Des-K3-InJ" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="182.5" y="0.0" width="85.5" height="85"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.071891053082191778" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Des-K3-InJ" secondAttribute="height" multiplier="1:1" id="854-fl-Arb"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                                        <state key="normal" title=".">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.70202803938356162" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="ButtonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YDz-zl-9Cq"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-pQ-eEM" customClass="MyCustomButton" customModule="CALCY_V2" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="85" height="85"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.68832940924657537" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="SP9-pQ-eEM" secondAttribute="height" multiplier="1:1" id="8Tm-tj-Xpb"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
+                                                        <state key="normal" title="=">
+                                                            <color key="titleColor" red="0.78813272714614868" green="0.60141617059707642" blue="0.92297142744064331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="OperationsButtonsActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWZ-zD-whW"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6lP-T3-cSS" secondAttribute="trailing" constant="8" id="7bk-sJ-82y"/>
+                                    <constraint firstItem="6lP-T3-cSS" firstAttribute="leading" secondItem="LNZ-OL-pgu" secondAttribute="leading" constant="8" id="PBj-Du-iz0"/>
+                                    <constraint firstAttribute="bottom" secondItem="6lP-T3-cSS" secondAttribute="bottom" constant="8" id="cC6-Uh-qgO"/>
+                                    <constraint firstItem="6lP-T3-cSS" firstAttribute="top" secondItem="LNZ-OL-pgu" secondAttribute="top" constant="8" id="qpn-kW-UCy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.6814800941780822" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="03E-XZ-uNF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="17c-3S-r6R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PgP-7r-ZUJ" secondAttribute="trailing" constant="8" id="3sC-yd-X3K"/>
+                            <constraint firstItem="LNZ-OL-pgu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="81a-ws-BZt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="03E-XZ-uNF" secondAttribute="trailing" constant="10" id="CJ7-us-vBy"/>
+                            <constraint firstItem="PgP-7r-ZUJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="HCw-58-Y9H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LNZ-OL-pgu" secondAttribute="trailing" id="Q21-FA-ABe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LNZ-OL-pgu" secondAttribute="bottom" id="RJP-Oj-xVe"/>
+                            <constraint firstItem="PgP-7r-ZUJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="SSa-04-02l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SOI-W5-mod" secondAttribute="trailing" constant="20" id="ZHl-P4-34J"/>
+                            <constraint firstItem="LNZ-OL-pgu" firstAttribute="top" secondItem="03E-XZ-uNF" secondAttribute="bottom" constant="8" id="aqR-lf-4Qv"/>
+                            <constraint firstItem="03E-XZ-uNF" firstAttribute="top" secondItem="SOI-W5-mod" secondAttribute="bottom" constant="6" id="dEQ-zM-QPK"/>
+                            <constraint firstItem="SOI-W5-mod" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="erB-G1-jTA"/>
+                            <constraint firstItem="SOI-W5-mod" firstAttribute="top" secondItem="PgP-7r-ZUJ" secondAttribute="bottom" constant="33" id="kLG-j2-6Dr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ResulLabel" destination="03E-XZ-uNF" id="5PG-hI-2Wf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>

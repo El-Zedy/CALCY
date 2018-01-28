@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14411292017E666000C29DD /* MyEXTview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14411282017E666000C29DD /* MyEXTview.swift */; };
+		C144112B2017E666000C29DD /* BrainCALCY.swift in Sources */ = {isa = PBXBuildFile; fileRef = C144112A2017E666000C29DD /* BrainCALCY.swift */; };
+		C14F0200201613E400A07CED /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F01FF201613E400A07CED /* MyCustomButton.swift */; };
+		C190243A2014FBE1007A013E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19024392014FBE1007A013E /* AppDelegate.swift */; };
+		C190243C2014FBE1007A013E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190243B2014FBE1007A013E /* ViewController.swift */; };
+		C190243F2014FBE1007A013E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190243D2014FBE1007A013E /* Main.storyboard */; };
+		C19024412014FBE1007A013E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19024402014FBE1007A013E /* Assets.xcassets */; };
+		C19024442014FBE1007A013E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19024422014FBE1007A013E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C14411282017E666000C29DD /* MyEXTview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEXTview.swift; sourceTree = "<group>"; };
+		C144112A2017E666000C29DD /* BrainCALCY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainCALCY.swift; sourceTree = "<group>"; };
+		C14F01FF201613E400A07CED /* MyCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
+		C19024362014FBE1007A013E /* CALCY-V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALCY-V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19024392014FBE1007A013E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C190243B2014FBE1007A013E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C190243E2014FBE1007A013E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19024402014FBE1007A013E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19024432014FBE1007A013E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19024452014FBE1007A013E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19024332014FBE1007A013E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C190242D2014FBE1007A013E = {
+			isa = PBXGroup;
+			children = (
+				C190244B2014FD43007A013E /* THEAPP */,
+				C19024382014FBE1007A013E /* CALCY-V2 */,
+				C19024372014FBE1007A013E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19024372014FBE1007A013E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19024362014FBE1007A013E /* CALCY-V2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19024382014FBE1007A013E /* CALCY-V2 */ = {
+			isa = PBXGroup;
+			children = (
+				C19024392014FBE1007A013E /* AppDelegate.swift */,
+				C19024402014FBE1007A013E /* Assets.xcassets */,
+				C19024422014FBE1007A013E /* LaunchScreen.storyboard */,
+				C19024452014FBE1007A013E /* Info.plist */,
+			);
+			path = "CALCY-V2";
+			sourceTree = "<group>";
+		};
+		C190244B2014FD43007A013E /* THEAPP */ = {
+			isa = PBXGroup;
+			children = (
+				C190243B2014FBE1007A013E /* ViewController.swift */,
+				C14F01FF201613E400A07CED /* MyCustomButton.swift */,
+				C190243D2014FBE1007A013E /* Main.storyboard */,
+				C14411282017E666000C29DD /* MyEXTview.swift */,
+				C144112A2017E666000C29DD /* BrainCALCY.swift */,
+			);
+			path = THEAPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19024352014FBE1007A013E /* CALCY-V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19024482014FBE1007A013E /* Build configuration list for PBXNativeTarget "CALCY-V2" */;
+			buildPhases = (
+				C19024322014FBE1007A013E /* Sources */,
+				C19024332014FBE1007A013E /* Frameworks */,
+				C19024342014FBE1007A013E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALCY-V2";
+			productName = "CALCY-V2";
+			productReference = C19024362014FBE1007A013E /* CALCY-V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C190242E2014FBE1007A013E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mohamed El Zedy";
+				TargetAttributes = {
+					C19024352014FBE1007A013E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C19024312014FBE1007A013E /* Build configuration list for PBXProject "CALCY-V2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C190242D2014FBE1007A013E;
+			productRefGroup = C19024372014FBE1007A013E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19024352014FBE1007A013E /* CALCY-V2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19024342014FBE1007A013E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19024442014FBE1007A013E /* LaunchScreen.storyboard in Resources */,
+				C19024412014FBE1007A013E /* Assets.xcassets in Resources */,
+				C190243F2014FBE1007A013E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19024322014FBE1007A013E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144112B2017E666000C29DD /* BrainCALCY.swift in Sources */,
+				C14411292017E666000C29DD /* MyEXTview.swift in Sources */,
+				C14F0200201613E400A07CED /* MyCustomButton.swift in Sources */,
+				C190243C2014FBE1007A013E /* ViewController.swift in Sources */,
+				C190243A2014FBE1007A013E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C190243D2014FBE1007A013E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C190243E2014FBE1007A013E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19024422014FBE1007A013E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19024432014FBE1007A013E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19024462014FBE1007A013E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19024472014FBE1007A013E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19024492014FBE1007A013E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LJY3ZSJK;
+				INFOPLIST_FILE = "CALCY-V2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoz.CALCY-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C190244A2014FBE1007A013E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LJY3ZSJK;
+				INFOPLIST_FILE = "CALCY-V2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoz.CALCY-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19024312014FBE1007A013E /* Build configuration list for PBXProject "CALCY-V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19024462014FBE1007A013E /* Debug */,
+				C19024472014FBE1007A013E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19024482014FBE1007A013E /* Build configuration list for PBXNativeTarget "CALCY-V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19024492014FBE1007A013E /* Debug */,
+				C190244A2014FBE1007A013E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C190242E2014FBE1007A013E /* Project object */;
+}
