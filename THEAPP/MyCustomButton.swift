@@ -14,7 +14,7 @@ class MyCustomButton : UIButton {
         super.awakeFromNib()
         
         self.layer.borderColor = UIColor.white.withAlphaComponent(0.5).cgColor
-        self.layer.borderWidth = 1.5
+        self.layer.borderWidth = 1.51
         
     }
     
